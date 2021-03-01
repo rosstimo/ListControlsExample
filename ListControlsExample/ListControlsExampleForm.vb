@@ -13,6 +13,10 @@
 
         NamesComboBox.Items.Add(InputTextBox.Text)
         NamesListBox.Items.Add(InputTextBox.Text)
+        NamesComboBox.Sorted = True
+        NamesListBox.Sorted = True
+        NamesComboBox.SelectedIndex = NamesComboBox.Items.IndexOf(InputTextBox.Text)
+        InputTextBox.Text = ""
     End Sub
 
     Private Sub NamesComboBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles NamesComboBox.SelectedIndexChanged

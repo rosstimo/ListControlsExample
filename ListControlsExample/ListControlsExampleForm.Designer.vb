@@ -170,8 +170,10 @@ Partial Class ListControlsExampleForm
         '
         'ListControlsExampleForm
         '
+        Me.AcceptButton = Me.GoButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.ExitButton
         Me.ClientSize = New System.Drawing.Size(774, 449)
         Me.Controls.Add(Me.TopMenuStrip)
         Me.Controls.Add(Me.ExitButton)
