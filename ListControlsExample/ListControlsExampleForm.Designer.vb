@@ -105,6 +105,7 @@ Partial Class ListControlsExampleForm
         '
         'ExitButton
         '
+        Me.ExitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.ExitButton.Location = New System.Drawing.Point(579, 333)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(172, 90)
@@ -133,13 +134,13 @@ Partial Class ListControlsExampleForm
         'GoTopMenuStripMenuItem
         '
         Me.GoTopMenuStripMenuItem.Name = "GoTopMenuStripMenuItem"
-        Me.GoTopMenuStripMenuItem.Size = New System.Drawing.Size(141, 34)
+        Me.GoTopMenuStripMenuItem.Size = New System.Drawing.Size(270, 34)
         Me.GoTopMenuStripMenuItem.Text = "&Go"
         '
         'ExitTopMenuStripMenuItem
         '
         Me.ExitTopMenuStripMenuItem.Name = "ExitTopMenuStripMenuItem"
-        Me.ExitTopMenuStripMenuItem.Size = New System.Drawing.Size(141, 34)
+        Me.ExitTopMenuStripMenuItem.Size = New System.Drawing.Size(270, 34)
         Me.ExitTopMenuStripMenuItem.Text = "E&xit"
         '
         'EditToolStripMenuItem
@@ -165,7 +166,7 @@ Partial Class ListControlsExampleForm
         'AboutTopMenuStripMenuItem
         '
         Me.AboutTopMenuStripMenuItem.Name = "AboutTopMenuStripMenuItem"
-        Me.AboutTopMenuStripMenuItem.Size = New System.Drawing.Size(164, 34)
+        Me.AboutTopMenuStripMenuItem.Size = New System.Drawing.Size(270, 34)
         Me.AboutTopMenuStripMenuItem.Text = "&About"
         '
         'ListControlsExampleForm

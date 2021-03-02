@@ -1,5 +1,7 @@
-﻿Public Class ListControlsExampleForm
+﻿Option Strict On
+Option Explicit On
 
+Public Class ListControlsExampleForm
 
     Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click,
                                                                            ExitContextMenuItem.Click,
@@ -30,5 +32,8 @@
         NamesListBox.Items.Clear()
     End Sub
 
-
+    Private Sub AboutTopMenuStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutTopMenuStripMenuItem.Click
+        AboutForm.Show()
+        Me.Hide()
+    End Sub
 End Class
